@@ -52,12 +52,6 @@ export default function Weather(props) {
                 onChange={handleCityChange}
               />
             </div>
-            {/* <div className="col-4">
-              <button
-                type="button"
-                className=" btn btn-outline-light"
-              ><MDBIcon icon="search-location" className="ms-1" size="lg" /></button>
-            </div> */}
           </div>
         </form>
         <WeatherInfo data={weatherData} />
